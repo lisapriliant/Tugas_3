@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Forgot"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/ibfp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:scaleType="fitStart"
+        android:textColor="@color/black"
+        android:src="@drawable/leftarrow"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/fp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot2"
+        android:fontFamily="@font/montserrat_semi_bold"
+        android:textSize="16pt"
+        android:textColor="@color/black"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/fp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fp"
+        android:textSize="8pt"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#9b9b9b"
+        android:textStyle="bold"
+        android:fontFamily="@font/montserrat_light"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fp1"/>
+
+    <TextView
+        android:id="@+id/fp3"
+        android:labelFor="@id/fp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uname"
+        android:textSize="10pt"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat_semi_bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fp2"/>
+
+    <EditText
+        android:id="@+id/fp4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/usn"
+        android:textSize="8pt"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10pt"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat_light"
+        android:inputType="text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fp3" />
+
+    <Button
+        android:id="@+id/fp5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/montserrat_light"
+        android:text="@string/send"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="10pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fp4"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

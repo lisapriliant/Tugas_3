@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Tugas3Praktikum</string>
+    <string name="welcome">Welcome to aking</string>
+    <string name="desc">Whats going to happen tomorrow?</string>
+    <string name="getstart">Get Started</string>
+    <string name="login">Log In</string>
+    <string name="wb">Welcome back</string>
+    <string name="cont">Sign in to Continue</string>
+    <string name="uname">Username</string>
+    <string name="usn">Enter your username or email</string>
+    <string name="pass">Password</string>
+    <string name="pw">Enter your password</string>
+    <string name="forgot">Forgot Password</string>
+    <string name="forgot2">Forgot Password</string>
+    <string name="fp">Please enter your email below to receive your password reset instruction</string>
+    <string name="send">Send Request</string>
+    <string name="reset">Reset Password</string>
+    <string name="resettext">Reset code was sent to your email. Please enter the code and create new password</string>
+    <string name="reco">Reset Code</string>
+    <string name="new1">New Password</string>
+    <string name="newpass">Enter your new password</string>
+    <string name="confirm">Confirm Password</string>
+    <string name="change">Change Password</string>
+    <string name="sukses">Succesful!</string>
+    <string name="sukses1">You have been succesfully login</string>
+    <string name="csukses">You have been succesfully change password. Please use your new password when logging in.</string>
+</resources>
